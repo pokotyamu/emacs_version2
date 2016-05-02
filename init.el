@@ -77,6 +77,6 @@
 (require 'anything-config)
 (add-to-list 'anything-sources 'anything-c-source-emacs-commands)
 
-(require 'cask "~/.cask/cask.el")
+(require 'cask "~/.emacs.d/elpa/cask-0.7.4/cask.el")
 (cask-initialize)
 (require 'pallet)
