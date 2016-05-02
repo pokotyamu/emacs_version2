@@ -77,6 +77,6 @@
 (require 'anything-config)
 (add-to-list 'anything-sources 'anything-c-source-emacs-commands)
 
-(require 'recentf)
-(setq recentf-max-saved-items 1000)
-(recentf-mode 1)
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+(require 'pallet)
