@@ -45,8 +45,13 @@
   (setq ns-command-modifier (quote meta)))
 
 
-(add-to-list 'load-path "~/.emacs.d/elisp/magit/lisp")
+(add-to-list 'load-path "~/.emacs.d/elisp/magit/")
 (require 'magit)
+
+;;magit用の色付け
+;; magit.el
+(require 'magit)
+
 (require 'git-gutter)
 ;; If you enable global minor mode
 (global-git-gutter-mode t)
